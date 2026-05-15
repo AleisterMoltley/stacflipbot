@@ -1,0 +1,23 @@
+{
+  "name": "solana-send-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.mjs",
+  "scripts": {
+    "start": "node bot.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
